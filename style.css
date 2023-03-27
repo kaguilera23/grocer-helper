@@ -17,6 +17,37 @@ header {
     text-align: center;
 }
 
-.layout-box {
-    border: var(--orange) 1px solid
+.week-columns {
+    display: flex;
+    flex-direction: column;
+}
+
+.day-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.meal-rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+textarea {
+    background-color: var(--olive);
+    border: none;
+    width: 100%;
+}
+
+.square {
+    width: 10%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.one-week {
+    text-align: center;
+    margin-top: 50px;
 }
