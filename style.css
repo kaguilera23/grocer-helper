@@ -1,0 +1,22 @@
+:root {
+    --green: #c7efcf;
+    --salmon: #fe5f55;
+    --orange: #f0b67f;
+    --olive: #d6d1b1;
+    --whiteish: #eef5db;
+  }
+
+body {
+    background-color: var(--green);
+}
+
+header {
+    color: var(--salmon);
+    font-family: Rubik;
+    font-size: 40px;
+    text-align: center;
+}
+
+.layout-box {
+    border: var(--orange) 1px solid
+}
